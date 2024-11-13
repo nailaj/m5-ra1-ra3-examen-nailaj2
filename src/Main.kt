@@ -41,7 +41,8 @@ fun main() {
     // fem la cerca de la talla que ha introduït l'usuari dins les talles del producte 1
     var tallaTrobadaProducte1: Boolean = false
     for (talla in tallesProducte1) {
-        if (talla == tallaUsuari) tallaTrobadaProducte1 = true
+        if (talla == tallaUsuari)
+            tallaTrobadaProducte1 = true
     }
     // fem la cerca de la talla que ha introduït l'usuari dins les talles del producte 1
     var tallaTrobadaProducte2 = false
@@ -50,12 +51,12 @@ fun main() {
     else {
         println("No s'ha trobat la teva talla ($tallaUsuari) del producte 1. Mirem del producte 2...")
 
-        var tallaTrobadaProducte1: Boolean = false
         for (talla in tallesProducte2) {
-            if (talla = tallaUsuari)
+            if (talla == tallaUsuari)
                 tallaTrobadaProducte2 = true
         }
-        if (tallaTrobadaProducte2) println("S'ha trobat la teva talla ($tallaUsuari) del producte 2")
+        if (tallaTrobadaProducte2)
+            println("S'ha trobat la teva talla ($tallaUsuari) del producte 2")
         else println("No s'ha trobat la teva talla de cap producte.")
     }
 }
