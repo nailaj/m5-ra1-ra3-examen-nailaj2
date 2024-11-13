@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87474b98-3e43-43b0-8e88-673d32d90e35" name="Changes" comment="IMATGES">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imatges_evidencies/Captura de pantalla de 2024-11-13 09-17-57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imatges_evidencies/Cimatge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imatges_evidencies/imatge1.png" beforeDir="false" />
-    </list>
+    <list default="true" id="87474b98-3e43-43b0-8e88-673d32d90e35" name="Changes" comment="commit readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731487122746</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit readme">
+      <option name="closed" value="true" />
+      <created>1731488019664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731488019664</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +146,8 @@
     <MESSAGE value="COMMIT 1 main.kt" />
     <MESSAGE value="COMMIT 2 main.kt" />
     <MESSAGE value="IMATGES" />
-    <option name="LAST_COMMIT_MESSAGE" value="IMATGES" />
+    <MESSAGE value="commit readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

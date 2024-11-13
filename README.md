@@ -19,7 +19,7 @@ Exemple d'evidència:
 
 ## Evidències Exercici 01
 ### Evidència/es a
-![img_2.png](img_2.png)
+![img_8.png](img_8.png)
 ### Evidència/es b
 ![img_5.png](img_5.png)
 ## Evidències Exercici 02
