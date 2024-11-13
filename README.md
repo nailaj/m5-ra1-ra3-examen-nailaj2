@@ -24,6 +24,7 @@ Exemple d'evidència:
 ## Evidències Exercici 02
 ### Evidència/es a
 ### Evidència/es b
+![breakpoint_.png](imatges_evidencies/breakpoint_.png)
 ### Evidència/es c
 ### Evidència/es d
 ### Evidència/es e
