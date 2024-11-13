@@ -1,30 +1,29 @@
 import java.util.Scanner
+// declarem reader, que és un scanner de l'entrada per defecte, el teclat
 
 fun main() {
-    // declarem reader, que és un scanner de l'entrada per defecte, el teclat
     val asdf = Scanner(System.`in`)
-
     // declaració de les variables que necessitem de forma general a tot el programa
     val numProductes: Int = 25
     val tallesProducte1: IntArray = IntArray(numProductes) { (35..46).random() }
     val tallesProducte2: IntArray = IntArray(numProductes) { (35..46).random() }
 
-    // mostrem per pantalla totes les talles disponibles del producte 1
+// mostrem per pantalla totes les talles disponibles del producte 1
     println("Talles producte 1:")
     for (i in 0..numProductes)
         print("${tallesProducte1[i]} ")
-    println("Mitja de les talles disponibles: ${tallesProducte1.sum()/(tallesProducte1.size-tallesProducte1.size)}")
+    println("Mitja de les talles disponibles: ${tallesProducte1.sum() / (tallesProducte1.size - tallesProducte1.size)}")
 
     // mostrem per pantalla totes les talles disponibles del producte 2
     println("Talles producte 1:")
     for (i in 0..numProductes)
         print("${tallesProducte1[i]} ")
-    println("")
-    println("Mitja de les talles disponibles: ${tallesProducte1.sum()/tallesProducte2.size}")
+        println("")
+        println("Mitja de les talles disponibles: ${tallesProducte1.sum() / tallesProducte2.size}")
 
     // iniciem la petició de la talla desitjada
+    var tallaCorrecta: Boolean = false
     var tallaUsuari: Int = 0
-    var tallaCorrecta: String = false
     println("Introdueix una talla entre 35 i 46.")
     do {
         if (asdf.hasNextInt()) {
@@ -45,14 +44,18 @@ fun main() {
         if (talla == tallaUsuari) tallaTrobadaProducte1 = true
     }
     // fem la cerca de la talla que ha introduït l'usuari dins les talles del producte 1
-    if (tallaTrobadaProducte2) println("S'ha trobat la teva talla ($tallaUsuari) del producte 1.")
+    var tallaTrobadaProducte2 = false
+    if (tallaTrobadaProducte2)
+        println("S'ha trobat la teva talla ($tallaUsuari) del producte 1.")
     else {
         println("No s'ha trobat la teva talla ($tallaUsuari) del producte 1. Mirem del producte 2...")
-        var tallaTrobadaProducte1: String = false
+
+        var tallaTrobadaProducte1: Boolean = false
         for (talla in tallesProducte2) {
-            if (talla = tallaUsuari) tallaTrobadaProducte2 = true
+            if (talla = tallaUsuari)
+                tallaTrobadaProducte2 = true
         }
-        if (tallaTrobadaProducte2) println("S'ha trobat la teva talla ($talla) del producte 2")
+        if (tallaTrobadaProducte2) println("S'ha trobat la teva talla ($tallaUsuari) del producte 2")
         else println("No s'ha trobat la teva talla de cap producte.")
     }
 }
