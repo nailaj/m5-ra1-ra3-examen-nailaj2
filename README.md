@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/prNKG_kO)
 # Full d'evidències
 Usarem aquest **README.md** per a acumular un registre de totes les evidències demanades als exercicis de l'enunciat de l'examen.
 
