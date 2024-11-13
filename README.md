@@ -19,9 +19,9 @@ Exemple d'evidència:
 
 ## Evidències Exercici 01
 ### Evidència/es a
-![img_8.png](img_8.png)
+![EX1-A.png](imatges_evidencies/EX1-A.png)
 ### Evidència/es b
-![img_5.png](img_5.png)
+![imatges_evidencies]/readme.png
 ## Evidències Exercici 02
 ### Evidència/es a
 ![img_3.png](img_3.png)
@@ -29,7 +29,7 @@ Exemple d'evidència:
 ![breakpoint_.png](imatges_evidencies/breakpoint_.png)
 ### Evidència/es c
 ### Evidència/es d
-![img_4.png](img_4.png)
+![EX2-D.png](imatges_evidencies/EX2-D.png)
 ### Evidència/es e
 ### Evidència/es f
 ### Evidència/es g
@@ -37,9 +37,9 @@ Exemple d'evidència:
 
 ## Evidències Exercici 03
 ### Evidència/es a
-![img_1.png](img_1.png)
+![imatge.png](imatges_evidencies/imatge.png)
 ### Evidència/es b
-![img.png](img.png)
+![imatges_evidencies]/Ex3-b.png
 ### Evidència/es c
 ### Evidència/es d
 ![EX3-D.png](imatges_evidencies/EX3-D.png)
